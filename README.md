@@ -2,7 +2,7 @@
 
 This tool will generate QRCodes for you
 
-[QRCode](https://github.com/iinc0gnit0/coder/blob/master/inc0gnit0.png)
+![QRCode](https://github.com/iinc0gnit0/coder/blob/master/inc0gnit0.png)
 
 ## Installation
 
