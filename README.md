@@ -27,3 +27,19 @@ Email: iinc0gnit0@pm.me
 ## Pull Request
 
 Pull request are welcome
+
+## Updates
+
+Updates of each version will be listed here
+
+#### v2.2
+
+Banner will change color everytime you start it up
+
+#### v2.1
+
+Made QRCode bigger
+
+#### v2.0
+
+The first version of coder
