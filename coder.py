@@ -1,6 +1,6 @@
 # Created by inc0gnit0 #
 
-# You may change the code however you want but make sure to give me credit #
+# You may change the code however you have to give me credit #
 
 # MODULES #
 
