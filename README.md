@@ -8,7 +8,7 @@ QRCode example:
 
 In use example:
 
-![In use](https://github.com/iinc0gnit0/coder/blob/master/example.png)
+![In use](https://github.com/iinc0gnit0/coder/blob/master/usage.png)
 
 ## Installation
 
