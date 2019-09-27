@@ -6,6 +6,10 @@ QRCode example:
 
 ![QRCode](https://github.com/iinc0gnit0/coder/blob/master/inc0gnit0.png)
 
+In use example:
+
+![In use](https://github.com/iinc0gnit0/coder/blob/master/example.png)
+
 ## Installation
 
 Use the following one line command to install
