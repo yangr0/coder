@@ -10,6 +10,8 @@ import time
 
 import os
 
+import random
+
 
 
 # COLORS #
@@ -24,6 +26,14 @@ cyan = "\u001b[36;1m"
 
 yellow = "\u001b[33;1m"
 
+magenta = "\u001b[35;1m"
+
+blue = "\u001b[34;1m"
+
+white = "\u001b[37;1m"
+
+list = ["\u001b[31;1m", "\u001b[32;1m", "\u001b[36;1m", "\u001b[33;1m", "\u001b[35;1m", "\u001b[34;1m", "\u001b[37;1m"]
+
 
 # MAIN #
 
@@ -33,67 +43,63 @@ def main():
 
 	# BANNER #
 
-	print("\033[38;5;82;1m")
 	time.sleep(0.1)
-	print("                                                888888888")
+	print(random.choice(list) + "                                                888888888")
 	time.sleep(0.1)
-	print("                                              888888888")
+	print(random.choice(list) + "                                              888888888")
 	time.sleep(0.1)
-	print("                                            888888888")
+	print(random.choice(list) + "                                            888888888")
 	time.sleep(0.1)
-	print("                                          888888888")
+	print(random.choice(list) + "                                          888888888")
 	time.sleep(0.1)
-	print("                                        88888888")
+	print(random.choice(list) + "                                        88888888")
 	time.sleep(0.1)
-	print("                                      888888888")
+	print(random.choice(list) + "                                      888888888")
 	time.sleep(0.1)
-	print("                                    88888888")
+	print(random.choice(list) + "                                    88888888")
 	time.sleep(0.1)
-	print("                                  888888888")
+	print(random.choice(list) + "                                  888888888")
 	time.sleep(0.1)
-	print("                                88888888")
+	print(random.choice(list) + "                                88888888")
 	time.sleep(0.1)
-	print("    888888888888              888888888                  8888888888888")
+	print(random.choice(list) + "    888888888888              888888888                  8888888888888")
 	time.sleep(0.1)
-	print("    888888888888            888888888                    8888888888888")
+	print(random.choice(list) + "    888888888888            888888888                    8888888888888")
 	time.sleep(0.1)
-	print("    888888888888              888888888                  8888888888888")
+	print(random.choice(list) + "    888888888888              888888888                  8888888888888")
 	time.sleep(0.1)
-	print("                                888888888")
+	print(random.choice(list) + "                                888888888")
 	time.sleep(0.1)
-	print("                                  888888888")
+	print(random.choice(list) + "                                  888888888")
 	time.sleep(0.1)
-	print("                                    888888888")
+	print(random.choice(list) + "                                    888888888")
 	time.sleep(0.1)
-	print("                                      88888888")
+	print(random.choice(list) + "                                      88888888")
 	time.sleep(0.1)
-	print("                                        888888888")
+	print(random.choice(list) + "                                        888888888")
 	time.sleep(0.1)
-	print("                                          888888888")
+	print(random.choice(list) + "                                          888888888")
 	time.sleep(0.1)
-	print("                                            888888888")
+	print(random.choice(list) + "                                            888888888")
 	time.sleep(0.1)
-	print("                                              888888888""" + "\033[0m")
+	print(random.choice(list) + "                                              888888888")
 	time.sleep(0.1)
-	print("\033[37m" + "          88                    888888                    88   88    888888")
+	print(random.choice(list) + "          88                    888888                    88   88    888888")
 	time.sleep(0.1)
-	print("                               88   888                        88   88   888")
+	print(random.choice(list) + "                               88   888                        88   88   888")
 	time.sleep(0.1)
-	print("          88 88888888  888888  88  8 88  888888  88888888 88 888888 88  8 88")
+	print(random.choice(list) + "          88 88888888  888888  88  8 88  888888  88888888 88 888888 88  8 88")
 	time.sleep(0.1)
-	print("          88 88    88 8        88 8  88 88    88 88    88 88   88   88 8  88")
+	print(random.choice(list) + "          88 88    88 8        88 8  88 88    88 88    88 88   88   88 8  88")
 	time.sleep(0.1)
-	print("          88 88    88 88    88 888  888 88    88 88    88 88   88   888   88")
+	print(random.choice(list) + "          88 88    88 88    88 888  888 88    88 88    88 88   88   888   88")
 	time.sleep(0.1)
-	print("          88 88    88  888888   888888   8888888 88    88 88   88    888888")
+	print(random.choice(list) + "          88 88    88  888888   888888   8888888 88    88 88   88    888888")
 	time.sleep(0.1)
-	print("                                             888")
+	print(random.choice(list) + "                                             888")
 	time.sleep(0.1)
-	print("                                         888888" + red + "                            v2.1")
+	print(random.choice(list) + "                                         888888" + red + "                           v2.2")
 	print("\033[0m")
-	print("\n")
-	print(green + "                         Created by i.nc0gnit0 and StackOverflow lol")
-	print("\n")
 
 
 
