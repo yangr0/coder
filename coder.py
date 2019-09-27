@@ -28,7 +28,7 @@ def main():
 
 	os.system("clear")
 
-	qr = qrcode.QRCode(version = 1, box_size = 10, border = 5)
+	qr = qrcode.QRCode(version = 1, box_size = 30, border = 3)
 
 	data = input(red + "  Link Destination(ex: www.google.com): ")
 
