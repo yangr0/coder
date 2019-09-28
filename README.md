@@ -26,20 +26,24 @@ Updates of each version will be listed here
 
 ### v2.4
 
-Changed banner and added credits
+- Changed banner
+
+- Added Credits
 
 ### v2.3
 
-Can catch import errors and fixed installation file
+- Can catch import errors
+
+- Fixed installation file
 
 ### v2.2
 
-Banner will change color everytime you start it up
+- Banner will change color everytime you start it up
 
 ### v2.1
 
-Made QRCode bigger
+- Made QRCode bigger
 
 ### v2.0
 
-The first version of coder
+- The first version of coder
