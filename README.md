@@ -2,14 +2,6 @@
 
 This tool will generate QRCodes for you
 
-QRCode example:
-
-![QRCode](https://github.com/iinc0gnit0/coder/blob/master/inc0gnit0.png)
-
-In use example:
-
-![In use](https://github.com/iinc0gnit0/coder/blob/master/usage.png)
-
 ## Installation
 
 Use the following one line command to install
@@ -31,6 +23,10 @@ Pull request are welcome
 ## Updates
 
 Updates of each version will be listed here
+
+### v2.4
+
+Changed banner and added credits
 
 ### v2.3
 
