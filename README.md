@@ -16,10 +16,6 @@ Instagram: [i.nc0gnit0](https://instagram.com/i.nc0gnit0)
 
 Email: iinc0gnit0@pm.me
 
-## Pull Request
-
-Pull request are welcome
-
 ## Updates
 
 Updates of each version will be listed here
