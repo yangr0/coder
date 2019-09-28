@@ -8,9 +8,9 @@ Use the following one line command to install
 
 `git clone https://github.com/iinc0gnit0/coder && cd coder && chmod +x * && ./install.sh`
 
-## Credit
+## Credits
 
-Created by [inc0gnit0](https://github.com/iinc0gnit0) and [StackOverflow](https://stackoverflow.com) ;)
+Created by [inc0gnit0](https://github.com/iinc0gnit0) ;)
 
 Instagram: [i.nc0gnit0](https://instagram.com/i.nc0gnit0)
 
