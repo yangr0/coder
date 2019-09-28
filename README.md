@@ -32,6 +32,10 @@ Pull request are welcome
 
 Updates of each version will be listed here
 
+### v2.3
+
+Can catch import errors and fixed installation file
+
 ### v2.2
 
 Banner will change color everytime you start it up
