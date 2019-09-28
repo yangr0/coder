@@ -2,6 +2,12 @@
 
 This tool will generate QRCodes for you
 
+## Supported Platforms
+
+- Debian Based Linux
+
+- Windows
+
 ## Installation
 
 Use the following one line command to install
