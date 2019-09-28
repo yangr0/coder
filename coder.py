@@ -4,13 +4,22 @@
 
 # MODULES #
 
-import qrcode
+try:
+	import qrcode
 
-import time
+	import time
 
-import os
+	import os
 
-import random
+	import random
+
+except(ImportError):
+
+	print("\u001b[31;1m" + "  You did not follow the instructions on GitHub")
+
+	print("\n")
+
+	print("Please run the following command: chmod +x * && sudo ./install.sh")
 
 
 
@@ -33,6 +42,7 @@ blue = "\u001b[34;1m"
 white = "\u001b[37;1m"
 
 list = ["\u001b[31;1m", "\u001b[32;1m", "\u001b[36;1m", "\u001b[33;1m", "\u001b[35;1m", "\u001b[34;1m", "\u001b[37;1m"]
+
 
 
 # MAIN #
@@ -98,7 +108,7 @@ def main():
 	time.sleep(0.1)
 	print(random.choice(list) + "                                             888")
 	time.sleep(0.1)
-	print(random.choice(list) + "                                         888888" + red + "                           v2.2")
+	print(random.choice(list) + "                                         888888" + red + "                           v2.3")
 	print("\033[0m")
 
 
@@ -134,6 +144,7 @@ def main():
 	print(yellow + "                         Thank you for using " + green + "coder" + yellow + "!" + reset)
 
 	print("\n")
+
 
 
 # START #
