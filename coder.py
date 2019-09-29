@@ -44,8 +44,6 @@ white = "\u001b[37;1m"
 
 list = ["\u001b[31;1m", "\u001b[32;1m", "\u001b[36;1m", "\u001b[33;1m", "\u001b[35;1m", "\u001b[34;1m", "\u001b[37;1m"]
 
-path = os.getcwd()
-
 
 
 # MAIN #
@@ -157,6 +155,8 @@ def main():
 	qr.make(fit = True)
 
 	image = qr.make_image(fill = "black", back_color = "white")
+
+	path = os.getcwd()
 
 
 
