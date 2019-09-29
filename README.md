@@ -28,7 +28,7 @@ Updates of each version will be listed here
 
 ### v2.8
 
-- Commented code
+- Commented source code
 
 ### v2.7
 
