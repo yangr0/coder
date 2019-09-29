@@ -26,11 +26,17 @@ Email: iinc0gnit0@pm.me
 
 Updates of each version will be listed here
 
+### v2.6
+
+- Added loadiing effect
+
+- Changed colors
+
 ### v2.4
 
 - Changed banner
 
-- Added Credits
+- Added credits
 
 ### v2.3
 
