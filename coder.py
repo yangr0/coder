@@ -42,7 +42,7 @@ blue = "\u001b[34;1m"
 
 white = "\u001b[37;1m"
 
-list = ["\u001b[31;1m", "\u001b[32;1m", "\u001b[36;1m", "\u001b[33;1m", "\u001b[35;1m", "\u001b[34;1m", "\u001b[37;1m"]
+list = ["\u001b[31;1m", "\u001b[32;1m", "\u001b[36;1m", "\u001b[33;1m", "\u001b[35;1m", "\u001b[34;1m", "\u001b[37;1m"] # List of colors to chose from #
 
 
 
@@ -50,20 +50,32 @@ list = ["\u001b[31;1m", "\u001b[32;1m", "\u001b[36;1m", "\u001b[33;1m", "\u001b[
 
 def main():
 
-	for x in range(5):
+	for x in range(5): # Loading Effect #
+
 		print(random.choice(list) + "|")
-		time.sleep(0.1)
-		os.system("clear")
-		print(random.choice(list) + "/")
-		time.sleep(0.1)
-		os.system("clear")
-		print(random.choice(list) + "-")
-		time.sleep(0.1)
-		os.system("clear")
-		print(random.choice(list) + "\\")
+
 		time.sleep(0.1)
 
-	os.system("clear")
+		os.system("clear")
+
+		print(random.choice(list) + "/")
+
+		time.sleep(0.1)
+
+		os.system("clear")
+
+		print(random.choice(list) + "-")
+
+		time.sleep(0.1)
+
+		os.system("clear")
+
+		print(random.choice(list) + "\\")
+
+		time.sleep(0.1)
+
+
+	os.system("clear") # Clear the terminal #
 
 	# BANNER #
 
@@ -125,46 +137,51 @@ def main():
 	time.sleep(0.1)
 	print(random.choice(list) + "                                             888")
 	time.sleep(0.1)
-	print(random.choice(list) + "                                         888888" + red + "                           v2.7")
+	print(random.choice(list) + "                                         888888" + red + "                           v2.8")
+	time.sleep(0.1)
 	print("\n")
 	print(random.choice(list) + "                                     Created by: inc0gnit0")
+	time.sleep(0.1)
 	print("\n")
 	print(random.choice(list) + "                                     GitHub: iinc0gnit0")
+	time.sleep(0.1)
 	print("\n")
 	print(random.choice(list) + "                                     Email: iinc0gnit0@pm.me")
+	time.sleep(0.1)
 	print("\n")
 	print(random.choice(list) + "                                     Instagram: i.nc0gnit0")
+	time.sleep(0.1)
 	print("\n\033[0m")
 
 
 
 	# VARIABLES #
 
-	qr = qrcode.QRCode(version = 1, box_size = 30, border = 3)
+	qr = qrcode.QRCode(version = 1, box_size = 30, border = 3) # QRCode variable #
 
-	data = input(random.choice(list) + "                         Link Destination(ex: www.google.com): ")
-
-	print("\n")
-
-	name = input(random.choice(list) + "                         File name(without the extension): ")
+	data = input(random.choice(list) + "                         Link Destination(ex: www.google.com): ") # Link destination of QRCode #
 
 	print("\n")
 
-	qr.add_data(data)
+	name = input(random.choice(list) + "                         File name(without the extension): ") # File name #
 
-	qr.make(fit = True)
+	print("\n")
 
-	image = qr.make_image(fill = "black", back_color = "white")
+	qr.add_data(data) # Add data to QRCode #
 
-	path = os.getcwd()
+	qr.make(fit = True) # Make the QRCode fit #
+
+	image = qr.make_image(fill = "black", back_color = "white") # QRCode color(You can experiment with this) #
+
+	path = os.getcwd() # Get path #
 
 
 
 	# PROCESS #
 
-	image.save(name + ".png")
+	image.save(name + ".png") # Saving image #
 
-	print(random.choice(list) + "                         The image will be saved to " + random.choice(list) + path + random.choice(list) + "/" + name + ".png")
+	print(random.choice(list) + "                         The image will be saved to " + random.choice(list) + path + random.choice(list) + "/" + name + ".png") 
 
 	print("\n")
 
@@ -177,9 +194,15 @@ def main():
 # START #
 
 try:
+
     if __name__ == "__main__":
+
         main()
+
 except KeyboardInterrupt:
+
     print(random.choice(list) + "\n \n                         Exiting..." + reset)
+
     print("\n")
+
     exit(1)
