@@ -12,7 +12,7 @@ This tool will generate QRCodes for you
 
 Use the following one line command to install
 
-`git clone https://github.com/iinc0gnit0/coder && cd coder && chmod +x * && ./install.sh`
+`git clone https://github.com/iinc0gnit0/coder && cd coder && chmod +x * && sudo ./install.sh`
 
 ## Credits
 
