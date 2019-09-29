@@ -44,6 +44,8 @@ white = "\u001b[37;1m"
 
 list = ["\u001b[31;1m", "\u001b[32;1m", "\u001b[36;1m", "\u001b[33;1m", "\u001b[35;1m", "\u001b[34;1m", "\u001b[37;1m"]
 
+path = os.getcwd()
+
 
 
 # MAIN #
@@ -162,11 +164,11 @@ def main():
 
 	image.save(name + ".png")
 
-	print(random.choice(list) + "                         The image will be saved in the " + green + "coder " + cyan + "folder")
+	print(random.choice(list) + "                         The image will be saved to " + random.choice(list) + path + random.choice(list) + "/" + name + ".png")
 
 	print("\n")
 
-	print(random.choice(list) + "                         Thank you for using " + green + "coder" + yellow + "!" + reset)
+	print(random.choice(list) + "                         Thank you for using " + random.choice(list) + "coder" + random.choice(list) + "!" + reset)
 
 	print("\n")
 
