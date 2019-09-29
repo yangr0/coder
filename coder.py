@@ -5,6 +5,7 @@
 # MODULES #
 
 try:
+
 	import qrcode
 
 	import time
@@ -49,10 +50,26 @@ list = ["\u001b[31;1m", "\u001b[32;1m", "\u001b[36;1m", "\u001b[33;1m", "\u001b[
 
 def main():
 
+	for x in range(5):
+		print(random.choice(list) + "|")
+		time.sleep(0.1)
+		os.system("clear")
+		print(random.choice(list) + "/")
+		time.sleep(0.1)
+		os.system("clear")
+		print(random.choice(list) + "-")
+		time.sleep(0.1)
+		os.system("clear")
+		print(random.choice(list) + "\\")
+		time.sleep(0.1)
+
 	os.system("clear")
 
 	# BANNER #
 
+	print("\n")
+	print(random.choice(list) + "                                https://github.com/iinc0gnit0/coder")
+	print("\n")
 	time.sleep(0.1)
 	print(random.choice(list) + "                                                888888888")
 	time.sleep(0.1)
@@ -108,8 +125,16 @@ def main():
 	time.sleep(0.1)
 	print(random.choice(list) + "                                             888")
 	time.sleep(0.1)
-	print(random.choice(list) + "                                         888888" + red + "                           v2.3")
-	print("\033[0m")
+	print(random.choice(list) + "                                         888888" + red + "                           v2.6")
+	print("\n")
+	print(random.choice(list) + "                                     Created by: inc0gnit0")
+	print("\n")
+	print(random.choice(list) + "                                     GitHub: iinc0gnit0")
+	print("\n")
+	print(random.choice(list) + "                                     Email: iinc0gnit0@pm.me")
+	print("\n")
+	print(random.choice(list) + "                                     Instagram: i.nc0gnit0")
+	print("\n\033[0m")
 
 
 
@@ -117,11 +142,11 @@ def main():
 
 	qr = qrcode.QRCode(version = 1, box_size = 30, border = 3)
 
-	data = input(red + "                         Link Destination(ex: www.google.com): ")
+	data = input(random.choice(list) + "                         Link Destination(ex: www.google.com): ")
 
 	print("\n")
 
-	name = input(green + "                         File name(without the extension): ")
+	name = input(random.choice(list) + "                         File name(without the extension): ")
 
 	print("\n")
 
@@ -137,11 +162,11 @@ def main():
 
 	image.save(name + ".png")
 
-	print(cyan + "                         The image will be saved in the " + green + "coder " + cyan + "folder")
+	print(random.choice(list) + "                         The image will be saved in the " + green + "coder " + cyan + "folder")
 
 	print("\n")
 
-	print(yellow + "                         Thank you for using " + green + "coder" + yellow + "!" + reset)
+	print(random.choice(list) + "                         Thank you for using " + green + "coder" + yellow + "!" + reset)
 
 	print("\n")
 
@@ -153,6 +178,6 @@ try:
     if __name__ == "__main__":
         main()
 except KeyboardInterrupt:
-    print(red + "                         Exiting..." + reset)
+    print(random.choice(list) + "\n \n                         Exiting..." + reset)
     print("\n")
     exit(1)
