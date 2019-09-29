@@ -26,6 +26,12 @@ Email: iinc0gnit0@pm.me
 
 Updates of each version will be listed here
 
+### v2.7
+
+- Shows path it was saved to
+
+- Fixed some colors
+
 ### v2.6
 
 - Added loadiing effect
