@@ -1,8 +1,6 @@
 # Created by inc0gnit0 #
 
-# You may change the code if you like #
-
-# Please give me credit if you are using it #
+# You may change the code however you have to give me credit #
 
 # MODULES #
 
@@ -16,7 +14,7 @@ try:
 
 	import random
 
-except(ImportError):
+except ImportError:
 
 	print("\u001b[31;1m" + "  You did not follow the instructions on GitHub")
 
@@ -173,7 +171,7 @@ def main():
 
 	qr.make(fit = True) # Make the QRCode fit #
 
-	image = qr.make_image(fill = "black", back_color = "white") # QRCode color (You can experiment with this) #
+	image = qr.make_image(fill = "black", back_color = "white") # QRCode color(You can experiment with this) #
 
 	path = os.getcwd() # Get path #
 
