@@ -4,9 +4,7 @@ This tool will generate QRCodes for you
 
 ## Supported Platforms
 
-- Debian Based Linux
-
-- Windows
+- Linux
 
 ## Installation
 
