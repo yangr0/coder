@@ -1,6 +1,8 @@
 # Created by inc0gnit0 #
 
-# You may change the code however you have to give me credit #
+# You may change the code if you like #
+
+# Please give me credit if you are using it #
 
 # MODULES #
 
@@ -171,7 +173,7 @@ def main():
 
 	qr.make(fit = True) # Make the QRCode fit #
 
-	image = qr.make_image(fill = "black", back_color = "white") # QRCode color(You can experiment with this) #
+	image = qr.make_image(fill = "black", back_color = "white") # QRCode color (You can experiment with this) #
 
 	path = os.getcwd() # Get path #
 
