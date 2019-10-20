@@ -20,6 +20,10 @@ Instagram: [i.nc0gnit0](https://instagram.com/i.nc0gnit0)
 
 Email: iinc0gnit0@pm.me
 
+## Bugs and Problems
+
+Message me on [Instagram](https://instagram.com/inc0gnit0.offical or email me iinc0gnit0@pm.me
+
 ## Updates
 
 Updates of each version will be listed here
