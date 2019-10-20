@@ -22,7 +22,7 @@ Email: iinc0gnit0@pm.me
 
 ## Bugs and Problems
 
-Message me on [Instagram](https://instagram.com/inc0gnit0.offical or email me iinc0gnit0@pm.me
+Message me on [Instagram](https://instagram.com/inc0gnit0.offical) or email me iinc0gnit0@pm.me
 
 ## Updates
 
