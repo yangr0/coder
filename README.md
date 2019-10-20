@@ -16,7 +16,7 @@ Use the following one line command to install
 
 Created by [inc0gnit0](https://github.com/iinc0gnit0) ;)
 
-Instagram: [i.nc0gnit0](https://instagram.com/inc0gnit0.offical)
+Instagram: [inc0gnit0.offical](https://instagram.com/inc0gnit0.offical)
 
 Email: iinc0gnit0@pm.me
 
