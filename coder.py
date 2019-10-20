@@ -149,7 +149,7 @@ def main():
 	print(random.choice(list) + "                                     Email: iinc0gnit0@pm.me")
 	time.sleep(0.1)
 	print("\n")
-	print(random.choice(list) + "                                     Instagram: i.nc0gnit0")
+	print(random.choice(list) + "                                     Instagram: inc0gnit0.offical")
 	time.sleep(0.1)
 	print("\n\033[0m")
 
